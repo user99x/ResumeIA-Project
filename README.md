@@ -7,7 +7,8 @@ git clone https://github.com/user99x/resumeIA-Project.git
 cd resumeur-ia
 python -m venv venv
 source venv/bin/activate  # (ou venv\Scripts\activate sous Windows)
-pip install -r requirements.txt
+pip install streamlit transformers
+pip install torch torchvision torchaudio
 streamlit run app.py
 ```
 
