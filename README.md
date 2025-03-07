@@ -8,7 +8,7 @@ cd resumeur-ia
 python -m venv venv
 source venv/bin/activate  # (ou venv\Scripts\activate sous Windows)
 pip install streamlit transformers
-pip install torch torchvision torchaudio
+pip install torch torchvision torchaudio # (pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu)
 streamlit run app.py
 ```
 
